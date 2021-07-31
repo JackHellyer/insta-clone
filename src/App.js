@@ -21,7 +21,7 @@ export default function App() {
                     <Route path={ROUTES.LOGIN} component={Login} />
                     <Route path={ROUTES.SIGN_UP} component={Signup} />
                     <Route path={ROUTES.PROFILE} component={Profile} />
-                    <Route path={ROUTES.NOT_FOUND} component={NotFound} />
+                    <Route component={NotFound} />
                 </Switch>
             </Suspense>
         </Router>
